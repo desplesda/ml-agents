@@ -37,6 +37,11 @@ public class Crate : MonoBehaviour
                 return;
             }
 
+            // if (goal.type != this.type) {
+            //     Debug.LogWarning("Touched a goal, but it's the wrong type for the current crate.");
+            //     agent.IHitWrongGoal(gameObject, col.gameObject);
+            // }
+
             if (goal.type == this.type) {
 
                 IsActive = false;

@@ -7,6 +7,8 @@ using MLAgents;
 
 public interface IPushAgent {
     void IScoredAGoal(GameObject crate, GameObject goal);
+
+    void IHitWrongGoal(GameObject crate, GameObject goal);
 }
 
 public class BeepoAgent : Agent, IPushAgent
@@ -139,6 +141,16 @@ public class BeepoAgent : Agent, IPushAgent
             Done();
         }
     }
+
+
+    public void IHitWrongGoal(GameObject target, GameObject goal)
+    {
+        // We use a reward of 5.
+        AddReward(-5f);
+    }
+
+
+
 
     /// <summary>
     /// Swap ground material, wait time seconds, then swap back to the

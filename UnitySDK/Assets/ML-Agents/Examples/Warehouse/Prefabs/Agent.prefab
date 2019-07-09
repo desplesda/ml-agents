@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff5ceabacea3476db49e79d11386ed4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 11400000, guid: dd07b1953eac4411b81fba032f394726, type: 2}
+  brain: {fileID: 11400000, guid: 741e7327b72fb4c05ba1b8f34c1fc068, type: 2}
   agentParameters:
     agentCameras: []
     agentRenderTextures: []
@@ -90,9 +90,6 @@ MonoBehaviour:
   areaBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
-  goal: {fileID: 0}
-  block: {fileID: 0}
-  goalDetect: {fileID: 0}
   useVectorObs: 1
 --- !u!114 &5003994387967241234
 MonoBehaviour:
