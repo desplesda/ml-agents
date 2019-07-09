@@ -23,16 +23,9 @@ public class GoalDefinition {
 public class BeepoAcademy : Academy
 {
 
-    /// <summary>
-    /// The "walking speed" of the agents in the scene. 
-    /// </summary>
-	public float agentRunSpeed;
 
-    /// <summary>
-    /// The agent rotation speed.
-    /// Every agent will use this setting.
-    /// </summary>
-	public float agentRotationSpeed;
+	public float agentRunSpeed;
+    public float agentRotationSpeed;
 
     /// <summary>
     /// The spawn area margin multiplier.
