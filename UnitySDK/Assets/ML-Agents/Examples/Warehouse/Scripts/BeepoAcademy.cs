@@ -10,8 +10,6 @@ using MLAgents;
 public enum GoalType {
     Goal1,
     Goal2,
-    Goal3,
-    Goal4,
 }
 
 [System.Serializable]
