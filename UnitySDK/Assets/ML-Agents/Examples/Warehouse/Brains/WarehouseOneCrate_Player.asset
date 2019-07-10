@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: WarehouseOneCrate_Player
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 0
-    numStackedVectorObservations: 1
+    vectorObservationSize: 70
+    numStackedVectorObservations: 3
     vectorActionSize: 07000000
-    cameraResolutions:
-    - width: 84
-      height: 84
-      blackAndWhite: 0
+    cameraResolutions: []
     vectorActionDescriptions:
     - 
     vectorActionSpaceType: 0
