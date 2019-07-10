@@ -7,6 +7,8 @@ using UnityEditor;
 
 #endif
 
+#pragma warning disable CS0649
+
 /**
  * Welcome to Unity Machine Learning Agents (ML-Agents).
  *

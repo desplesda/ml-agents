@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 
+#pragma warning disable CS0649
+
 namespace UnityStandardAssets.Vehicles.Car
 {
     internal enum CarDriveType
