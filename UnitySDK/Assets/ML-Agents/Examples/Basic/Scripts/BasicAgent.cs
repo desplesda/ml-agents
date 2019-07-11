@@ -9,7 +9,7 @@ public class BasicAgent : Agent
     private BasicAcademy academy;
     public float timeBetweenDecisionsAtInference;
     private float timeSinceDecision;
-    int position;
+    public int position;
     int smallGoalPosition;
     int largeGoalPosition;
     public GameObject largeGoal;

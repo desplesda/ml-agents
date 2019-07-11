@@ -31,8 +31,8 @@ Maze_Learning_RL:
     time_horizon: 64
     num_layers: 2    
     
-OSCONCarLearningBrain:
-    max_steps: 10.0e4
+OSCONCar_RL_LearningBrain:
+    max_steps: 1.0e6
     batch_size: 100
     beta: 0.001
     buffer_size: 12000

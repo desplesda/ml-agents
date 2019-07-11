@@ -6401,6 +6401,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 3160834365530254376, guid: 24b800c2b421f44a5b8234cd5f7ca7b7,
+        type: 3}
+      propertyPath: field of view
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 110290075, guid: 24b800c2b421f44a5b8234cd5f7ca7b7, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6488,11 +6493,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 13400000, guid: 67db31eead11e8d6d00011d98d76c639,
         type: 2}
-    - target: {fileID: 3160834365530254376, guid: 24b800c2b421f44a5b8234cd5f7ca7b7,
-        type: 3}
-      propertyPath: field of view
-      value: 90
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24b800c2b421f44a5b8234cd5f7ca7b7, type: 3}
 --- !u!4 &1245971546 stripped
@@ -7174,7 +7174,8 @@ MonoBehaviour:
     broadcastingBrains:
     - {fileID: 11400000, guid: 2869c8c1e106a4d978ad3587039af7db, type: 2}
     - {fileID: 11400000, guid: d83c021c37b734d5898fa6b75c7db892, type: 2}
-    _brainsToControl: []
+    _brainsToControl:
+    - {fileID: 11400000, guid: 2869c8c1e106a4d978ad3587039af7db, type: 2}
   maxSteps: 0
   trainingConfiguration:
     width: 80
@@ -8775,7 +8776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   record: 0
-  demonstrationName: PBA_Recording_3
+  demonstrationName: TN_Rec1
 --- !u!114 &2051727492
 MonoBehaviour:
   m_ObjectHideFlags: 0
